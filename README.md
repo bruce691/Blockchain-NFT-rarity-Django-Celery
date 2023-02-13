@@ -6,6 +6,7 @@ You need two things to interact with a smart contract:
 
 - The smart contract address
 - The Application Binary Interface (ABI)
+- Infura API in order to talk to ETH blockchain
 
 Both of these can be found on `Etherscan`
 
