@@ -25,6 +25,7 @@ Both of these can be found on [Etherscan](https://etherscan.io/)
 ## Build
 
 To build containers navigate to the root folder containing `docker-compose.yml` file and execute: 
+
 `docker-compose up --build --detach`
 
 Tested on: `macOS Monterey 12.6` and latest `Archlinux`
