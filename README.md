@@ -1,5 +1,7 @@
 # Blockchain (web3) | NFT-rarity | Django | Celery | Redis | PostgreSQL
 
+## Description
+
 This project uses `Django`, `celery` and `flower` for asynchronous tasks and `web3.py` to interact with the `Ethereum blockchain` in order to fetch `NFT collection metadata`. 
 
 You need two things to interact with a smart contract:
@@ -19,3 +21,10 @@ Both of these can be found on [Etherscan](https://etherscan.io/)
 `[Rarity Score for a Trait Value] = 1 / ([Number of Items with that Trait Value] / [Total Number of Items in Collection])`
 
 `Celery` and `Redis` are used to offload `NFT fetching` into `Async tasks`, as one could try to fetch hundreds of NFTs at once, but also because free Infura API enforces rate limiting.
+
+## Build
+
+To build containers navigate to the root folder containing `docker-compose.yml` file and execute: 
+`docker-compose up --build --detach`
+
+Tested on: `macOS Monterey 12.6` and latest `Archlinux`
