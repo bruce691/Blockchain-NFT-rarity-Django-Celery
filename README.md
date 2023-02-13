@@ -1,1 +1,1 @@
-# Blockchain-NFT-rarity-Django-Async
+# Blockchain (web3) | NFT-rarity | Django | Celery
